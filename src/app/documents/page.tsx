@@ -11,6 +11,8 @@ export default function DocumentList() {
       <Table {...tableProps} rowKey="id">
         <Table.Column dataIndex="title" title="Title" />
         <Table.Column dataIndex="url" title="URL" />
+        <Table.Column dataIndex="content" title="Content" />
+        <Table.Column dataIndex="created_at" title="Time Add" />
         <Table.Column
           dataIndex="thumbnail"
           title="Thumbnail"

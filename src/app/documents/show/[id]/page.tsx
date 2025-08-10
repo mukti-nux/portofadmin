@@ -16,6 +16,15 @@ export default function DocumentShow() {
       <Typography.Title level={4}>URL</Typography.Title>
       <Typography.Text>{record?.url}</Typography.Text>
 
+      <Typography.Title level={4}>ID</Typography.Title>
+      <Typography.Text>{record?.url}</Typography.Text>
+
+      <Typography.Title level={4}>Content</Typography.Title>
+      <Typography.Text>{record?.url}</Typography.Text>
+
+      <Typography.Title level={4}>Time Add</Typography.Title>
+      <Typography.Text>{record?.url}</Typography.Text>
+
       <Typography.Title level={4}>Thumbnail</Typography.Title>
       {record?.thumbnail && (
         <img src={record.thumbnail} alt="thumb" width={120} />
