@@ -65,16 +65,6 @@ export default function RootLayout({
                           canDelete: true,
                         },
                       },
-                      {
-                        name: "documents",
-                        list: "/documents",
-                        create: "/documents/create",
-                        edit: "/documents/edit/:id",
-                        show: "/documents/show/:id",
-                        meta: {
-                          canDelete: true,
-                        },
-                      },
 
                     ]}
                     options={{
