@@ -12,6 +12,9 @@ export default function DocumentCreate() {
         <Form.Item label="Title" name="title" rules={[{ required: true }]}>
           <Input />
         </Form.Item>
+        <Form.Item label="Content" name="content">
+          <Input />
+        </Form.Item>
         <Form.Item label="URL" name="url">
           <Input />
         </Form.Item>
